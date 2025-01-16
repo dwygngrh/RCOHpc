@@ -44,15 +44,20 @@ perintah submit job ke HPC sebagai berikut :
 
 sbatch running.slurm >> log_running.out 2>&1  
 
+*********************************************************************************************************************  
+
 ## Perintah untuk melihat status Job kita di HPC
 squeue   
- 
+
+*********************************************************************************************************************  
+
 ## Informasi jenis partiton :   
 medium-small (3 hari running)  
 long  ( 7 hari running)  
 medium-large (3 hari running  bisa lebih dari 1 nodes, permintaan khusus)  
 short (1 hari running)  
 
+*********************************************************************************************************************  
 
 ## Jika ada kesulitan bs email ke dwiy008@brin.go.id
 
