@@ -18,9 +18,21 @@ conda init bash
 
 ## instalasi conda environment untuk python
 
-conda create --name "user_intra" python=3.9
+conda create --name "user_intra" python=3.9    ****** ganti "user_intra" dengan user kita di intra brin  
 
-********** ganti "user_intra" dengan user kita di intra brin
+### Instalasi module sesuai kebutuhan
+
+conda install conda-forge::numpy  
+conda install conda-forge::scipy  
+conda install conda-forge::matplotlib  
+conda install conda-forge::basemap  
+conda install conda-forge::netcdf4  
+conda install anaconda::pandas  
+conda install conda-forge::plotly  
+conda install anaconda::seaborn  
+conda install anaconda::pywavelets  
+conda install conda-forge::gsw  
+conda install jupyter  
 
 ## perintah untuk running di slurm. 
 Download file running.slurm di reposiroty ini dan silahkan sesuaikan dengan kebutuhan  
