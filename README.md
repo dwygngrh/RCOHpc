@@ -8,7 +8,7 @@ module load earth/netcdf-c/4.9.2
 module load earth/netcdf-fortran/4.6.1  
 module load earth/miniconda3/24.11.1  
 
-## Script untuk running di slurm.   
+## Script untuk running di slurm. 
 #!/bin/bash  
 #SBATCH --job-name=roms  
 #SBATCH --nodes=1  #default brin maksimal 1 nodes per user  
@@ -19,8 +19,8 @@ module load earth/miniconda3/24.11.1
 #SBATCH --propagate=STACK  
 ulimit -s unlimited  
 
-## launch the run script  
-mpirun -np 64 ./Roms  
+## Contoh command untuk launch run script  
+mpirun -np 64 ./Roms
 
 ## Slurm command
 squeue   # untuk liat job list  
