@@ -1,6 +1,7 @@
 # RCOHpc
 ## Informasi untuk pemakaian HPC untuk aplikasi kelautan
 
+*********************************************************************************************************************  
 ## Auto load module standard di bashrc  
 ### instalasi module dimulai *************************************    
 #### Perintah ini hanya di berikan sekali saja dan pastikan berada di direktory $HOME  
@@ -15,6 +16,7 @@ conda init bash
 
 ##### silahkan logout dan login lagi
 ### instalasi module selesai *************************************   
+*********************************************************************************************************************  
 
 ## instalasi conda environment untuk python
 
@@ -33,6 +35,8 @@ conda install anaconda::seaborn
 conda install anaconda::pywavelets  
 conda install conda-forge::gsw  
 conda install jupyter  
+
+*********************************************************************************************************************  
 
 ## perintah untuk running di slurm. 
 Download file running.slurm di reposiroty ini dan silahkan sesuaikan dengan kebutuhan  
