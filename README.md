@@ -9,7 +9,7 @@ echo "module load intel/2023.2.0" > .bashrc
 echo "module load mpi/2021.10.0" > .bashrc  
 echo "module load earth/netcdf-c/4.9.2" > .bashrc  
 echo "module load earth/netcdf-fortran/4.6.1" > .bashrc  
-echo "module load earth/miniconda3/24.11.1" > .bashrc
+echo "module load earth/miniconda3/24.7.1" > .bashrc
 
 conda init bash  
 
