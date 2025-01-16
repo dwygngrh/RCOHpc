@@ -20,7 +20,7 @@ conda init bash
 
 conda create --name "user_intra" python=3.9
 
-ganti "user_intra" dengan user kita di intra brin
+********** ganti "user_intra" dengan user kita di intra brin
 
 ## perintah untuk running di slurm. 
 Download file running.slurm di reposiroty ini dan silahkan sesuaikan dengan kebutuhan  
