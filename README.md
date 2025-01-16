@@ -2,7 +2,7 @@
 ## Informasi penggunaan HPC untuk aplikasi kelautan
 
 *********************************************************************************************************************  
-### instalasi module autoload di bashrc dimulai *************************************    
+### instalasi module autoload di bashrc *************************************    
 #### Perintah ini hanya di berikan sekali saja dan pastikan berada di direktory $HOME  
 
 echo "module load intel/2023.2.0" > .bashrc  
