@@ -1,7 +1,7 @@
 # RCOHpc
 ## Informasi untuk pemakaian HPC untuk aplikasi kelautan
 
-Load module standard
+###Load module standard  
 module load intel/2023.2.0  
 module load mpi/2021.10.0  
 module load earth/netcdf-c/4.9.2  
