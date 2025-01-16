@@ -3,8 +3,7 @@
 
 ## Auto load module standard di bashrc  
 ### instalasi module dimulai ####################################  
-#### Perintah ini hanya di berikan sekali saja
-#### pastikan berada di direktory $HOME
+#### Perintah ini hanya di berikan sekali saja dan pastikan berada di direktory $HOME  
 
 echo "module load intel/2023.2.0" > .bashrc  
 echo "module load mpi/2021.10.0" > .bashrc  
@@ -14,7 +13,7 @@ echo "module load earth/miniconda3/24.11.1" > .bashrc
 
 conda init bash  
 
-#### silahkan logout dan login lagi
+##### silahkan logout dan login lagi
 ### instalasi module selesai ####################################  
 
 ## perintah untuk running di slurm. 
