@@ -14,27 +14,7 @@ echo "module load earth/miniconda3/24.11.1" > .bashrc
 conda init bash  
 
 ##### silahkan logout dan login lagi
-### instalasi module selesai *************************************   
-*********************************************************************************************************************  
-
-## instalasi conda environment untuk python
-
-conda create --name "user_intra" python=3.9    ****** ganti "user_intra" dengan user kita di intra brin  
-
-### Instalasi module sesuai kebutuhan
-
-conda install conda-forge::numpy  
-conda install conda-forge::scipy  
-conda install conda-forge::matplotlib  
-conda install conda-forge::basemap  
-conda install conda-forge::netcdf4  
-conda install anaconda::pandas  
-conda install conda-forge::plotly  
-conda install anaconda::seaborn  
-conda install anaconda::pywavelets  
-conda install conda-forge::gsw  
-conda install jupyter  
-
+### instalasi module selesai, python sudah terinstall*************************************   
 *********************************************************************************************************************  
 
 ## perintah untuk running di slurm. 
