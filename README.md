@@ -16,7 +16,7 @@ perintah submit job ke HPC sebagai berikut :
 sbatch running.slurm >> log_running.out 2>&1  
 
 ## Perintah untuk melihat status Job kita di HPC
-squeue   # untuk liat job list  
+squeue   
  
 ##Jenis partiton :   
 medium-small (3 hari running)  
