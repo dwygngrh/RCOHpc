@@ -16,6 +16,12 @@ conda init bash
 ##### silahkan logout dan login lagi
 ### instalasi module selesai *************************************   
 
+## instalasi conda environment untuk python
+
+conda create --name "user_intra" python=3.9
+
+ganti "user_intra" dengan user kita di intra brin
+
 ## perintah untuk running di slurm. 
 Download file running.slurm di reposiroty ini dan silahkan sesuaikan dengan kebutuhan  
 perintah submit job ke HPC sebagai berikut :  
