@@ -2,11 +2,11 @@
 ## Informasi untuk pemakaian HPC untuk aplikasi kelautan
 
 Load module standard
-module load intel/2023.2.0
-module load mpi/2021.10.0
-module load earth/netcdf-c/4.9.2
-module load earth/netcdf-fortran/4.6.1
-module load earth/miniconda3/24.11.1
+module load intel/2023.2.0  
+module load mpi/2021.10.0  
+module load earth/netcdf-c/4.9.2  
+module load earth/netcdf-fortran/4.6.1  
+module load earth/miniconda3/24.11.1  
 
 Script untuk running di slurm. 
 #!/bin/bash
