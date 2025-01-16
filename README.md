@@ -1,5 +1,5 @@
 # RCOHpc
-## Informasi untuk pemakaian HPC untuk aplikasi kelautan
+## Informasi penggunaan HPC untuk aplikasi kelautan
 
 *********************************************************************************************************************  
 ### instalasi module autoload di bashrc dimulai *************************************    
