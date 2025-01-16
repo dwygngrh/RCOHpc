@@ -10,7 +10,7 @@ module load earth/netcdf-fortran/4.6.1
 module load earth/miniconda3/24.11.1  
 
 ## perintah untuk running di slurm. 
-Download file running.slurm di reposiroty ini dan silahkan sesuaikan dengan kebutuhan
+Download file running.slurm di reposiroty ini dan silahkan sesuaikan dengan kebutuhan  
 perintah submit job ke HPC sebagai berikut :  
 
 sbatch running.slurm >> log_running.out 2>&1  
